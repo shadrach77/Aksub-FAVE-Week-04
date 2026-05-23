@@ -1,0 +1,15 @@
+.centeringContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 1062px;
+  padding-top: 51px;
+  padding-bottom: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: space-between;
+}

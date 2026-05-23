@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 320px;
+  background-color: white;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 222px;
+  object-fit: cover;
+  display: block;
+  border-radius: 32px;
+}
+
+.saveButton {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  padding: 0 16px;
+  height: 29px;
+}
+
+.saveButtonIcon {
+  width: 12.6px;
+  height: 15.8px;
+}
+
+.category {
+  font-size: 14px;
+  color: #969696;
+}
+
+.title {
+  font-size: 18px;
+  color: #333333;
+}
+
+.rating {
+  display: flex;
+  gap: 15px;
+  color: #969696;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+}
+
+.price {
+  font-size: 24px;
+  color: #333333;
+}

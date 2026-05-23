@@ -13,19 +13,19 @@ export default function Hero() {
           <Bubble color="frosted">
             <div className={styles.navLinks}>
               <div className={styles.navLink}>
-                <img src={iconBulb} alt="bulb-icon" />
+                <img src={iconCart} alt="cart-icon" />
                 Products
               </div>
               <div className={styles.navLink}>
-                <img src={iconCart} alt="cart-icon" />
+                <img src={iconBulb} alt="bulb-icon" />
                 Inspiration
               </div>
               <div className={styles.navLink}>
-                <img src={iconPhone} alt="phone-icon" />
+                <img src={iconWindow} alt="window-icon" />
                 Service
               </div>
               <div className={styles.navLink}>
-                <img src={iconWindow} alt="window-icon" />
+                <img src={iconPhone} alt="phone-icon" />
                 Support
               </div>
             </div>
