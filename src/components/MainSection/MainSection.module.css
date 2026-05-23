@@ -2,6 +2,9 @@
   display: flex;
   width: 100vw;
   justify-content: center;
+  background-color: white;
+  border-radius: 32px;
+  transform: translateY(-61px);
 }
 
 .mainContainer {
