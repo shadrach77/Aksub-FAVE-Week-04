@@ -1,0 +1,25 @@
+.bubble {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 32px;
+  border-radius: 54px;
+}
+
+.colorBlack {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.colorWhite {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.colorFrosted {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(7.8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
