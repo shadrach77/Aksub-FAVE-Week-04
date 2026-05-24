@@ -2,7 +2,7 @@ import Bubble from "../../../Bubble/Bubble";
 import styles from "./SearchBar.module.css";
 import iconSearch from "../../../../assets/iconSearch.svg";
 
-export default function SearchBubble({ value, onChange }) {
+export default function SearchBubble({ input, setInput }) {
   return (
     <Bubble
       color="white"
@@ -19,8 +19,8 @@ export default function SearchBubble({ value, onChange }) {
         className={styles.input}
         type="text"
         placeholder="Search Products"
-        value={value}
-        onChange={onChange}
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
       />
     </Bubble>
   );

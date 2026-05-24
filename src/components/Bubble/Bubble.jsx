@@ -5,6 +5,7 @@ export default function Bubble({
   color = "white",
   style = {},
   className = "",
+  onClick,
 }) {
   const colorClass = {
     white: styles.colorWhite,
@@ -16,6 +17,7 @@ export default function Bubble({
     <div
       className={`${styles.bubble} ${colorClass[color]} ${className}`}
       style={style}
+      onClick={onClick}
     >
       {children}
     </div>
